@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>A short quiz</title>
+		<link rel="stylesheet" href="{{url_for('static',filename='style_lulu.css')}}">
+	</head>
+	
+	<body>
+		<h1>A short quiz</h1>
+		<h4>You will be asked {{num}} questions. Please answer them to the best of your ability.</h4>
+		
+		<form id="userinfoform" method="post" action="index">
+			<p>Name: <input type="text" name="name"></p>
+			<p>Age: <input type="text" name="age"></p>
+			<p><input type="submit" value="Submit here"></p>
+		</form>
+	</body>
+</html>

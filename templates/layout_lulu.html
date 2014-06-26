@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>A short quiz</title>
+		<link rel="stylesheet" href="{{url_for('static',filename='style_lulu.css')}}">
+	</head>
+	
+	<body>
+		<h1>Question #{{num}}</h1>
+		{{question}}
+		<h4>
+			<form id="answerform" method="post" action="next">
+				<p>
+					Answer: <br>
+					<input type="radio" name="answerfromlayout" value={{ans1}}> {{ans1}} <br>
+					<input type="radio" name="answerfromlayout" value={{ans2}}> {{ans2}} <br>
+					<input type="radio" name="answerfromlayout" value={{ans3}}> {{ans3}} <br>
+				</p>
+				<p><input type="submit" value="Submit here"></p>
+			</form>
+		</h4>
+	</body>
+</html>
