@@ -2,11 +2,11 @@ Name: David
 Age: 21
 
 Do you like cupcakes?
-yes
+maybe
 
 How many eyes do you have?
 2
 
 Which fruit do you like best?
-banana
+pineapple
 
