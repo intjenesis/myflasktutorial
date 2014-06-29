@@ -1,4 +1,4 @@
 myflasktutorial
 ===============
 
-My first deploy to Heroku
+myflasktutorial.herokuapp.com/index
